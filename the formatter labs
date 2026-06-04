@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>the formater labs</title>
+    </head>
+    <body>
+        <h1> the formatter labs</h1>
+        <p>welcome to the lab where we style text like scientists style experiments with precision and purpose ! each section shows a different formatting tag in action.</p>
+        <h2>bold vs strong</h2>
+        <p>the <b>cheetah</b>is the fastestland animal on earth.</p>
+        <p>you should <strong>always wear a helmat</strong> when riding a bicycle.</p>
+        <h2>italic vs emphasis</h2>
+        <p>the scientific name for a lion is <i>panthera leo</i>.</p>
+        <p>this is <em>rellay</em>important - never touch an unknown chemical whithout protective gloves.</p>
+        <h2>hightlight and small</h2>
+        <p>remember:<mark>water boils at 100 degaree c</mark>at sea level.</p>
+    </body>
+    <html>
