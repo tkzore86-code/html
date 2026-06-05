@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>timetable</title>
+    </head>
+    <body>
+       <h1>school timetable</h1>
+       <table border="3">
+        <tr>
+            <th>monday</th>
+            <th>tusday</th>
+            <th>wednasday</th>
+            <th>thursday</th>
+            <th>friday</th>
+            <th>saterday</th>
+            <th>sunday</th>
+        </tr>
+        <tr>
+            <th>sci,maths,geo</th>
+            <th>eng,mar,hin</th>
+            <th>spots,coputer,life skill</th>
+            <th>eng,sci</th>
+            <th>mar,maths</th>
+            <th>coputer,hin,eng</th>
+            <th>hin,spots</th>
+        </tr>
+    </body>
+</html>
