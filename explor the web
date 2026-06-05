@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Explore the web</title>
+    </head>
+    <body>
+        <h1>explor the web</h1>
+        <p>here are some of the most amazing websites on internet. click any link to visit! </p>
+        <h2>learn something new</h2>
+        <p>visit <a href="https://www.wikipedia.org/">wikipedia</a>- the worlds largest free encyclopaedia</p>
+        <p>discover books that change the way you thinnk at <a href="https://www.goodreads.com/goodreads"></a>- the world largest community of reading sharing books about life,courage,and wisdom.</p>
+        <h2>explor space</h2>
+        <p>discover the univers at <a href="https://www.nasa.gov/">NASA</a>- live roket launches,mars mission and moer.</p>
+        <p>see the deepest images of space at <a href="https://www.nasa.gov/">james webb space telescope</a>.</p>
+        <h2>explor earth</h2>
+        <p>explor a live 3d view of our planet at <a href="https://science.nasa.gov/mission/webb/">nasa eyes on the earth</a>- an interactive 3d globe showing real satellites orbiting earth right now , built by nasa.</p>
+        <p>diacover nature and wildlife at <a href="https://www.nationalgeographic.com/">national geographic</a>.</p>
+    </body>
+</html>
