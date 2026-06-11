@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>rocket mission</title>
+    </head>
+    <body>
+        <center> 
+            <h1>welcome to my rocket mission!</h1>
+            <p>today , our rocket is getting ready to travle across space.</p>
+            <h2>step 1: meet the rocket</h2>
+            <img src="pngtree-colorful-rocket-emoji-png-image_20343843.png" alt="a rocket ready to launch " width="350" height="350">
+            <p>this rocket will take us to a new planet.</p>
+            <h2>step 2: our space destnation</h2>
+            <img src="ea4f0e5bffeab9b18ff017e6e462f953.jpg" alt="a colourful planet in space" width="350" height="350">
+            <p>we found a beautiful planet far away from earth.</p>
+            <h2>step 3: the space explorer</h2>
+            <img src="images.png" alt="an astornaut exploring space" width="350" height="350">
+            <p>the astornaut is ready to explor the planet</p>
+            <h2>mission complete!</h2>
+            <p>we used image tag to add pictures and tell a space story on our webpage.</p>
+        <center>
+    </body>
+</html>
