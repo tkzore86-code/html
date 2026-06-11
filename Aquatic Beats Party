@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>aquatic beats party</title>
+        <body>
+            <center>
+                <h1>aquatic beats party</h1>
+                <h2>the ocean stage is ready</h2>
+                <p>play the music and watch the aquatic animals swim through their beautiful underwater world.</p>
+                <audio controls loop>
+                    <source src="sample-3s.mp3" type="audio/mpeg">
+                    your browser dose not support the audio tag.
+                    </audio>
+            </center>
+        </body>
+    </head>
