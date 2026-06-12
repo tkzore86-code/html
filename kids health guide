@@ -1,0 +1,45 @@
+<html lang-"en">
+    <head>
+        <title>kidscare &#8212;health guide</title>
+    </head>
+    <body>
+        <header>
+            <h1>&#10084; kidscare &#8212; your health guide</h1>
+            <nav>
+               <a href="#health">stay healthy</a>
+               <a href="#tips">quick tips</a>
+               <a herf="#media">watch &amp;learn</a>
+            </nav>
+        </header>
+        <main>
+            <section id ="health">
+                <article>
+            <h2> &#128170; why your body needs exercise</h2>
+            <p>your body is like a supercar &#8212; the more you use it, the strong it gets! kids who moves for <strong>60 minutes every day </strong>are happier , sleep better , and do better at school.</p>
+            <p>dancing, swimming , football, yoga &#8212; anything that gets your heart beating faster counts. keeps moving and have fun!</p>
+                </article>
+                <figure>
+                    <img src="images.jpg"
+                     alt="a kid playing soccer"
+                     width="500"
+                     height="500">
+                     <figcaption>&#127939; active kids are healthier and happier every day!</figcaption>
+                </figure>
+            </section>
+            <aside id="tips">
+                <h3>&#127822; quick health tips</h3>
+                <ul>
+                    <li>&#127822; eat 5 fruits and veggies every day</li>
+                    <li>&#128167; drink 8 glass of water daily</li>
+                    <li>&#128564; sleep 9 to 11 hours every night</li>
+                    <li>&#127939; move your body for 60 minutes</li>
+                </ul>
+            </aside>
+            <h2 id="media" &#127909; watch &amp; learn></h2>
+            <iframe src="https://www.youtube.com/embed/FB5-7tIiX-I?si=tHYvVJR7BwSXO7tD" width="700" height="700" title="kids health video" allowfullscreen></iframe>
+        </main>
+        <footer>
+            <p>copyright &#169; 2024 kidscare &#124; built by a future web developer &#128512;</p>
+        </footer>
+    </body>
+    </html>
