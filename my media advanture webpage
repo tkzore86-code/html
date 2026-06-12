@@ -1,0 +1,60 @@
+<html>
+    <head>
+    
+        <title>My Media Adventure</title>
+    </head>
+    
+    <body>
+    
+        <center>
+    
+            <h1>My Media Adventure Webpage</h1>
+    
+            <p>
+                Welcome to my fun webpage! Here, you can explore images, listen to music, watch a video, and play a game.
+            </p>
+    
+            <h2>Space mission gallery</h2>
+    
+            <p>
+                These images show my exciting space adventure.
+            </p>
+
+            <h2>Aquatic beats party</h2>
+    
+            <p>
+                Play the music and enjoy the aquatic animal video.
+            </p>
+    
+            <audio controls loop>
+
+                <source src="sample-3s.mp3" type="audio/mpeg">
+            
+            </audio>
+
+            <video width="500" height="350" controls poster="download.ht" loop>
+                <source src="aqua.mp4" type="video/mp4">
+                
+            </video>
+
+            <h2>Super game zone</h2>
+    
+            <p>
+                Play this Scratch game directly inside the webpage.
+            </p>
+    
+            <iframe src="download.htm" allowtransparency="true" width="500" height="400"
+                frameborder="0" scrolling="no" allowfullscreen>
+            </iframe>
+
+            <h2>Mission complete!</h2>
+    
+            <p>
+                I used image, audio, video, and iframe tags to make this HTML media webpage.
+            </p>
+    
+        </center>
+    
+    </body>
+    
+    </html>
