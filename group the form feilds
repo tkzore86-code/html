@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>group the from feilds</title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>personal infomation</legend>
+                <label>full name:</label>
+                <input type="text"> id="fname" placeholder="enter name"><br>
+                <label>email:</label><br>
+                <input type="radio"> id="gender" value="female">female<br>
+                 <input type="radio">id="gender" value="female"?female<br>
+                 <label>birthday:</label>
+                 <input type="date" id="birthday" name="birthday"><br><br>
+            </fieldset>
+        </form>
+    </body>
