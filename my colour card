@@ -1,0 +1,44 @@
+<html lang="en">
+    <head>
+        <title>my colour card</title>
+    </head>
+    <style>
+        *{
+            font-size: 16px;
+        }
+        body {
+            background-color: lightgrey;
+        }
+        h1 {
+            color: darkblue;
+        }
+        h2 {
+            color: purple;
+        }
+        p {
+            color: darkgray;
+        }
+        .my-detail{
+            color:darkgreen;
+            font-weight: bold;
+        }
+        #my-card{
+            background-color: lightcyan;
+        }
+    </style>
+    <body>
+        <h1>my color card</h1>
+        <p style="color: crimson;">hi! this is my very own webpage.</p>
+        <div id="my-card">
+            <h2>about me</h2>
+            <p class="my-detail">my name is harshika</p>
+            <p class="my-detail">my favourite colour is blue.</p>
+            <p class="my-detail">my favourite subject is maths.</p>
+            <p class="my-detail">my ffavourite food is pizza</p>
+        </div>
+        <h2>my favourite things</h2>
+        <p>my favourite animal is a dog.</p>
+        <p>my favourite sport is cricket.</p>
+        <p>my favourite movie is the lion king.</p>
+    </body>
+<html>
