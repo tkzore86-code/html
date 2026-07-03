@@ -1,0 +1,274 @@
+<html>
+    <head>
+        <title>my fitness routine card</title>
+        <style>
+            body {
+                background-color: darkgreen;
+                font-family: arial,sans-serif;
+            }
+            .fact-file {
+                background-color: lightyellow;
+                color: darkslategray;
+                width: 260px;
+                padding: 25px;
+                border: 4px solid forestgreen;
+                margin: 30px;
+            }
+            .fitness-card {
+                color: forestgreen;
+                font-size: 22px;
+            }
+            .detail {
+                color: darkslategray;
+            }
+            .cool-fact {
+                color: darkorange;
+                font-style: italic;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="fact-file">
+            <h2 class="fitness-name">legs</h2>
+            <p class="detail">lives: in gym</p>
+            <p class="detail">type: heavy things</p>
+            <p class="detail">diet: eating only eggs,fruits,vegtables</p>
+            <p class="cool fact">cool fact: it makes our body fit</p>
+        </div>
+    </body>
+</html>
+
+<html>
+
+<head>
+    <title>my fitness routine card</title>
+    <style>
+        body {
+            background-color: darkgreen;
+            font-family: arial, sans-serif;
+        }
+
+        .fact-file {
+            background-color: lightyellow;
+            color: darkslategray;
+            width: 260px;
+            padding: 25px;
+            border: 4px solid forestgreen;
+            margin: 30px;
+        }
+
+        .fitness-card {
+            color: forestgreen;
+            font-size: 22px;
+        }
+
+        .detail {
+            color: darkslategray;
+        }
+
+        .cool-fact {
+            color: darkorange;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="fact-file">
+        <h2 class="fitness-name">pushup</h2>
+        <p class="detail">lives: in gym</p>
+        <p class="detail">type: heavy things</p>
+        <p class="detail">diet: eating only eggs,fruits,vegtables</p>
+        <p class="cool fact">cool fact: it makes our body fit</p>
+    </div>
+</body>
+
+</html>
+
+<html>
+
+<head>
+    <title>my fitness routine card</title>
+    <style>
+        body {
+            background-color: darkgreen;
+            font-family: arial, sans-serif;
+        }
+
+        .fact-file {
+            background-color: lightyellow;
+            color: darkslategray;
+            width: 260px;
+            padding: 25px;
+            border: 4px solid forestgreen;
+            margin: 30px;
+        }
+
+        .fitness-card {
+            color: forestgreen;
+            font-size: 22px;
+        }
+
+        .detail {
+            color: darkslategray;
+        }
+
+        .cool-fact {
+            color: darkorange;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="fact-file">
+        <h2 class="fitness-name">cardio</h2>
+        <p class="detail">lives: in gym</p>
+        <p class="detail">type: heavy things</p>
+        <p class="detail">diet: eating only eggs,fruits,vegtables</p>
+        <p class="cool fact">cool fact: it makes our body fit</p>
+    </div>
+</body>
+
+</html>
+
+<html>
+
+<head>
+    <title>my fitness routine card</title>
+    <style>
+        body {
+            background-color: darkgreen;
+            font-family: arial, sans-serif;
+        }
+
+        .fact-file {
+            background-color: lightyellow;
+            color: darkslategray;
+            width: 260px;
+            padding: 25px;
+            border: 4px solid forestgreen;
+            margin: 30px;
+        }
+
+        .fitness-card {
+            color: forestgreen;
+            font-size: 22px;
+        }
+
+        .detail {
+            color: darkslategray;
+        }
+
+        .cool-fact {
+            color: darkorange;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="fact-file">
+        <h2 class="fitness-name">chest</h2>
+        <p class="detail">lives: in gym</p>
+        <p class="detail">type: heavy things</p>
+        <p class="detail">diet: eating only eggs,fruits,vegtables</p>
+        <p class="cool fact">cool fact: it makes our body fit</p>
+    </div>
+</body>
+
+</html>
+
+
+<html>
+
+<head>
+    <title>my fitness routine card</title>
+    <style>
+        body {
+            background-color: darkgreen;
+            font-family: arial, sans-serif;
+        }
+
+        .fact-file {
+            background-color: lightyellow;
+            color: darkslategray;
+            width: 260px;
+            padding: 25px;
+            border: 4px solid forestgreen;
+            margin: 30px;
+        }
+
+        .fitness-card {
+            color: forestgreen;
+            font-size: 22px;
+        }
+
+        .detail {
+            color: darkslategray;
+        }
+
+        .cool-fact {
+            color: darkorange;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="fact-file">
+        <h2 class="fitness-name">back</h2>
+        <p class="detail">lives: in gym</p>
+        <p class="detail">type: heavy things</p>
+        <p class="detail">diet: eating only eggs,fruits,vegtables</p>
+        <p class="cool fact">cool fact: it makes our body fit</p>
+    </div>
+</body>
+
+</html>
+
+<html>
+
+<head>
+    <title>my fitness routine card</title>
+    <style>
+        body {
+            background-color: darkgreen;
+            font-family: arial, sans-serif;
+        }
+
+        .fact-file {
+            background-color: lightyellow;
+            color: darkslategray;
+            width: 260px;
+            padding: 25px;
+            border: 4px solid forestgreen;
+            margin: 30px;
+        }
+
+        .fitness-card {
+            color: forestgreen;
+            font-size: 22px;
+        }
+
+        .detail {
+            color: darkslategray;
+        }
+
+        .cool-fact {
+            color: darkorange;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="fact-file">
+        <h2 class="fitness-name">shoulders</h2>
+        <p class="detail">lives: in gym</p>
+        <p class="detail">type: heavy things</p>
+        <p class="detail">diet: eating only eggs,fruits,vegtables</p>
+        <p class="cool fact">cool fact: it makes our body fit</p>
+    </div>
+</body>
+</html>
