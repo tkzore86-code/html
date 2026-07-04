@@ -1,0 +1,51 @@
+<html lang="en">
+
+<head>
+    <title>about me</title>
+    <style>
+        * {
+            font-size: 16px;
+        }
+
+        body {
+            background-color: lightyellow;
+        }
+
+        h1 {
+            color: darkblue;
+        }
+
+        h2 {
+            color: purple;
+        }
+
+        p {
+            color: dimgray;
+        }
+
+        .cartoon-detail {
+            color: darkgreen;
+            font-weight: bold;
+        }
+
+        #cartoon-card {
+            background-color: lightcyan;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>My self</h1>
+        <h2>about my self</h2>
+        <p class="self">my Name: harshika</p>
+        <p class="self">fav food: pizza</p>
+        <p class="self">age: age</p>
+        <p class="self-detail">school name: st.coloumba high school</p>
+    </div>
+    <h2>my fav cartoon</h2>
+    <p>doremon</p>
+    <p>Doraemon is kind, helpful, and funny.</p>
+    <p>He always tries to help his friends solve problems.</p>
+    <p>He teaches us about friendship and creativity.</p>
+</body>
+</html>
