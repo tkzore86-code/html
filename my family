@@ -1,0 +1,61 @@
+<html lang="en">
+
+<head>
+    <title>my family</title>
+</head>
+<style>
+    * {
+        font-size: 16px;
+    }
+
+    body {
+        background-color: lightgrey;
+    }
+
+    h1 {
+        color: darkblue;
+    }
+
+    h2 {
+        color: purple;
+    }
+
+    p {
+        color: darkgray;
+    }
+
+    .my-detail {
+        color: darkgreen;
+        font-weight: bold;
+    }
+
+    #my-card {
+        background-color: lightcyan;
+    }
+</style>
+
+<body>
+    <h1>my family</h1>
+    <p style="color: crimson;">hi! this is my family.</p>
+    <div id="my-card">
+        <h2>about family</h2>
+        <p class="my-detail">my name is harshika</p>
+        <p class="my-detail">my favourite colour is blue.</p>
+        <p class="my-detail">my father name is ketan.</p>
+        <p class="my-detail">my father favourite color is blue</p>
+        <p class="my-detail">my mother name is tanuja</p>
+        <p class="my-detail">my mother favourite colour is pink.</p>
+        <p class="my-detail">my grandmother name is vijaya.</p>
+        <p class="my-detail">my grandmother favourite color is purple</p>
+        <p class="my detail">my uncle name is rahul</p>
+        <p class="my-detail">my uncle favourite color is red</p>
+        <p class="my detail">my uncle name is nikhil</p>
+        <p class="my-detail">my uncle favourite color is green</p>
+    </div>
+    <h2>my favourite things</h2>
+    <p>my favourite animal is a dog.</p>
+    <p>my favourite sport is cricket.</p>
+    <p>my favourite movie is the lion king.</p>
+</body>
+<html>
+    
