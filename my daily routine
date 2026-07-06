@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>my daily routine</title>
+    </head>
+    <body>
+        <h1>my daily routine</h1>
+        <table border="4">
+            <tr>
+                <th>morning activities</th>
+                <th>school activities</th>
+                <th>evening activities</th>
+            </tr>
+            <tr>
+                <th>First i wake up then i go bath , then i do breakfast n i go to school...</th>
+                <th>In school first pray and teacher takes atendence and lectures starts we have 10 lecture ,but after 3 lecture we have short break , and after 4 lecture we have long break and after 3 lecture means after 10th lecture we have pray and then we go home...</th>
+                <th>At evening i go to tuition and after tuition i complet my homework and i eat my dinner and i go to sleep...</th>
+            </tr>
+    </body>
+</html>
