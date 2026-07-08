@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>inspirational quotes</title>
+    </head>
+    <style>
+        body {
+            background-color: pink;
+            font-family: sans-serif;
+            text-align: center;
+            text-decoration: black;
+            text-shadow: black;
+        }
+    </style>
+    <blockquote>
+      <br>
+      "keep your face always towards the sunshine-and shadows will fall behind you."
+      <br>
+    </blockquote>
+</html>
