@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>marks page</title>
+</head>
+<body>
+    <h1>school timetable</h1>
+    <table border="4">
+        <tr>
+            <th>english</th>
+            <th>maths</th>
+            <th>marathi</th>
+            <th>hindi</th>
+            <th>science</th>
+            <th>history,civics</th>
+            <th>geography</th>
+        </tr>
+        <tr>
+            <th>90</th>
+            <th>89</th>
+            <th>85</th>
+            <th>80</th>
+            <th>88</th>
+            <th>93</th>
+            <th>95</th>
+        </tr>
+</body>
