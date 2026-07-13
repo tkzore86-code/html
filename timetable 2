@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>timetable</title>
+    </head>
+    <body>
+       <h1>school timetable</h1>
+       <table border="4">
+        <tr>
+            <th>monday</th>
+            <th>tusday</th>
+            <th>wednasday</th>
+            <th>thursday</th>
+            <th>friday</th>
+            <th>satarday</th>
+        </tr>
+        <tr>
+            <th>10am-11am</th>
+            <th>11am-12pm</th>
+            <th>12pm-1pm</th>
+            <th>1pm-2pm</th>
+            <th>2pm-3pm</th>
+            <th>3pm-4pm</th>
+        </tr>
+        <tr>
+            <th>sci,maths,geo</th>
+            <th>eng,mar,hin</th>
+            <th>spots,coputer,life skill</th>
+            <th>eng,sci</th>
+            <th>mar,maths</th>
+            <th>coputer,hin,eng</th>
+        </tr>
+    </body>
+</html>
