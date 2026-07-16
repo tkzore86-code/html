@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>My Food Diary</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <style>
+            body {
+                background-color: coral;
+                font-family: Arial, sans-serif;
+                text-align: center;
+                padding: 30px;
+            }
+            h2 {
+                color: black;
+                margin-top: 25px;
+            }
+            abbr {
+                color: black;
+                font-weight: bold;
+                cursor: hand;
+            }
+            blockquote {
+                border-left: 4px solid black;
+                padding-left: 15px;
+                font-style: italic;
+                color: maroon;
+                text-align: left;
+                display: inline-block;
+            }
+            hr {
+                border-color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <p class="display-1">my food dairy</p>
+        <p class="display-2">dishes</p>
+        <p class="display-3">food facts</p>
+        <p class="display-4">guide <small>harshika</small></p>
+        <hr>
+        <h2>
+            did you know?
+        </h2>
+        <p>pasta and pizza are the <mark>most liked</mark>food for kids.</p>
+        <hr>
+        <h2>
+            cooking style
+        </h2>
+        <p>i liked to eat <abbr title="white sous pasta">wsp</abbr></p>
+        <hr>
+        <h2>
+            food quote
+        </h2>
+        <blockquote>
+            <p>'respect the food you get to eat'</p>
+            <p>- by harshika</p>
+        </blockquote>
+    </body>
+</html>
