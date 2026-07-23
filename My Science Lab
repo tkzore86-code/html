@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>My Science Lab</title>
+    <link rel="stylesheet"
+     href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+     <style>
+        body {
+            background-color: #f4fff4; font-family: arial, sans-serif; }
+            .jumbotron { background-color: #e6f9ec; border-left: 6px solid #ff5a43;}
+            .jumbotron h1 {color: #ff5a43;}
+            .section-title { color: #ff5a43; margin-top: 30px; margin-bottom: 15px;}
+            p { font-weight: bold; margin-bottom: 5px}
+     </style>
+    </head>
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+         <h1>My Science Lab</h1>
+         <p>welcome to the lab! here are the experiments running, the discoveries made, and how far each research project has come.</p>
+         <button class="btn btn-primary">chemistry</button>
+         <button class="btn btn-success">biology</button>
+         <button class="btn btn-warniing">physics</button>
+         <button class="btn btn-danger">astronomy</button>
+        </div>
+    </div>
+    <div class="container">
+        <h2 class="section-title">experiments completd<span class="badge badeg-danger">4</span></h2>
+        <p>chemistry<span class="badge badge-primary">7 experiments</span></p>
+        <p>biology<span class="badge badge-success">5 experiments</span></p>
+        <p>physics<span class="badge badge-warning">3 experiments</span></p>
+        <p>astronomy<span class="badge badge-info">4 experiments</span></p>
+        <h2 class="section-title">research progress</h2>
+        <p>chemistry</p>
+        <div class="progress mb-3">
+        <div class="progress-bar bg-primary" style="width: 85%"></div>
+        </div>
+        <p>biology</p>
+        <div class="progress mb-3">
+        </div>
+    </div>
+</body>
