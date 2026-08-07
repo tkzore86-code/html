@@ -1,0 +1,15 @@
+<html>
+    <body>
+    <h2>JavaScript for loop</h2>
+    <p id="demo"></p>
+    <script>
+    var fruits = ["APPLE" , "MANGO" , "GRAPS" , "WATERMELON" , "JACK FRUITS" , "BANANA"];
+    var text = "";
+    var i;
+    for (i = 0; i < fruits.length; i++) {
+        text += fruits[i] + "<br>";
+    }
+    document.getElementById("demo").innerHTML = text;
+    </script>
+    </body>
+</html>
