@@ -1,0 +1,47 @@
+<html>
+<body>
+    <h2>javascript string methods</h2>
+    <p>basic methods</p>
+    <script>
+        var str = "AmAzInG";
+        document.write(str.toUpperCase());
+        document.write("<br>");
+        document.write(str.toLowerCase());
+        document.write(("<br>"));
+        document.write(str.startsWith('i'));
+        document.write("<br>");
+        var str1 = "I learnt about Methods";
+        var patt = new RegExp("about");
+        var res = patt.test(str);
+        document.write(res);
+    </script>
+</body>
+<body>
+    <p id="demo"></p>
+    <script>
+        var day;
+        switch (new Date().getDay()) {
+            case 0:
+                day = "sunday";
+                break;
+            case 1:
+                day = "monday";
+                break;
+            case 2:
+                day = "tuesday";
+                break;
+            case 3:
+                day = "wednesday";
+                break;
+            case 4:
+                day = "thursday";
+                break;
+            case 5:
+                day = "friday";
+                break;
+            case 6:
+                day = "saturday";
+        }
+        document.getElementById("demo").innerHTML = "Today is" + day;
+    </script>
+</body>
