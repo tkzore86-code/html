@@ -53,6 +53,23 @@
                 school: "sunrise academy",
                 city: "mumbai"
             }
+            var nameE1 = document.getElementById("name");
+            var phoneE1 = document.getElementById("phone");
+            nameE1.textContent = mycontact.name;
+            phoneE1.textContent = mycontact.phone;
+
+            var schoolE1 = document.getElementById("school");
+            var cityE1 = document.getElementById("city");
+            schoolE1.textContent = mycontact["school"];
+            cityE1.textContent = mycontact["city"];
+
+            var codeE1 = document.getElementById("codeDisplay");
+            codeE1.textContent =
+            'name: "' + mycontact.name + '",/n' +
+            'phone: "' + mycontact.name + '",/n' +
+            'school: "' + mycontact.name + '",/n' +
+            'city: "' + mycontact.name + '",/n' +
+        '};';
         </script>
     </body>
 </html>
