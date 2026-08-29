@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>school supplies page</title>
+</head>
+<body>
+<h1>school supplies</h1>
+<table border="7">
+<tr>
+<th>english</th>
+<th>maths</th>
+<th>marathi</th>
+<th>hindi</th>
+<th>science</th>
+<th>history,civics</th>
+<th>geography</th>
+<th>writting stufs</th>
+</tr>
+<tr>
+<th>textbook , notebook , grammer book.</th>
+<th>textbook , notebook.</th>
+<th>textbook , notebook , grammer book.</th>
+<th>textbook , notebook , grammer book.</th>
+<th>textbook , notebook , journal.</th>
+<th>textbook , notebook.</th>
+<th>textbook , notebook , journal.</th>
+<th>pen , pencil , easer , sharpner , long scale.</th>
+</tr>
+</body>
+</html>
