@@ -1,0 +1,43 @@
+<html lang="en">
+    <head>
+        <title>games card</title>
+        <style>
+            * {
+                font-size: 16px;
+            }
+            body {
+                background-color: lightyellow;
+            }
+            h1 {
+                color: darkblue;
+            }
+            h2 {
+                color: purple;
+            }
+            p {
+                color: dimgray;
+            }
+            .cartoon-detail {
+                color: darkgreen;
+                font-weight: bold;
+            }
+            #cartoon-card {
+                background-color: lightcyan;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>indoor games</h1>
+        <p style="color: crimson;">in indoor games we can play ludo, carom , etc.</p>
+        <p style="color: crimson;">but we can play these games at home or while sitting.</p>
+        <p style="color: crimson;">and some people dont like to play indoor games.</p>
+        <p style="color: crimson;">but some people like to play indoors games ot play.</p>
+        <div id="games-card">
+            <h2>outdoor games</h2>
+            <p class="outdoor games-detail">in outdoor games we can play hide n seek , pakda-pakdi , sakli , etc</p>
+            <p class="outdoor games-detail">but we can play these games at ground</p>
+            <p class="outdoor games-detail">and some people dont like to play outdoor games</p>
+            <p class="outdoor games-detail">but some people like to play outdoor games to play</p>
+        </div>
+    </body>
+    </html>
