@@ -1,0 +1,58 @@
+<html>
+<head>
+<title>My Playlist Sorter</title>
+<link rel="stylesheet"
+href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrapp.min.css">
+<style>
+body { background: lavender;}
+h1 , h3 { color: darkviolet;}
+.box { background: white; color: darkviolet;}
+</style>
+</head>
+<body>
+<div class="container py-4">
+<h1 class="mb-1">My Playlist Sorter</h1>
+<p class="text-muted mb-4">sort and label your music Playlist using JavaScript array methods!</p>
+<div class="card mb-4">
+<div class="card-body">
+<h3 class="card-title">songe names</h3>
+<button class="btn btn-primary mr-2" onclick="sortaz()">sort a to z</button>
+<button class="btn btn-primary" onclick="sortza()">sort z to a</button>
+<div id="nameresult" class="box p-3 mt-3 rounnded"></div>
+</div>
+</div>
+<div class="card mb-4">
+<div class="card-body">
+<h3 class="card-title">play counts</h3>
+<button class="btn btn-primary mr-2" onclick="sortleast()">least played first</button>
+<button class="btn btn-primary mr-2" onclick="sortmost()">most played first</button>
+<div id="countresult" class="box p-3 mt-3 rounnded"></div>
+</div>
+</div>
+<div class="card mb-4">
+<div class="card-body">
+<h3 class="card-title">label every play count</h3>
+<button class="btn btn-primary mr-2" onclick="addlabel()">add plays label</button>
+<div id="labelresult" class="box p-3 mt-3 rounnded"></div>
+</div>
+</div>
+</div>
+<script>
+var songs = ["zoom" , "bounce" , "glow" , "rush" , "spark" ];
+var plays = [320,85,210,50,175]
+document.getElementById("nameresult").innerHTML = "songs: " + songs;
+document.getElementById("countresult").innerHTML = "plays: " + plays;
+document.getElementById("labelresult").innerHTML = "press the button above!";
+function sortaz() {songs.sort();
+document.getElementById("nameresult").innerHTML = "A TO Z: " + songs;}
+function sortza() { songs.sort(); songs.reverse();
+document.getElementById("nameresult").innerHTML = "z TO a: " + songs;}
+function sortleast() { plays.sort(function(a,b){return a-b;}); 
+document.getElementById("countresult").innerHTML = "least played first: " + plays;}
+function sortmost() {plays.sort(function (a, b) { return b-a; });
+document.getElementById("countresult").innerHTML = "most played first: " + plays;}
+function addlabel() {var 1 = plays.map(function(c){return c+"plays";});
+document.getElementById("labelresult").innerHTML = "labelled: " + 1;}
+</script>
+</body>
+</html>
