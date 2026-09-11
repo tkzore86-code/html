@@ -39,5 +39,38 @@ h1, h3 {color: darkorange;}
 <button class="btn btn-warning mr-2" onclick="trysafe()">try it!</button>
 <div id="errResult" class="box p-3 mt-3 rounded">sentence: "type anumber or something silly and see what happens!"</div>
 </div></div>
+<script>
+var sen = "the dragon flew over the big castel.";
+function checktypes() {
+document.getElementById("typeresult").innerText =
+"score 42 - type: " + typeof 42 + "\n" +
+"name alex - type: " + typeof "alex" + "\n" +
+"game over true - type: " + typeof true;
+}
+function tostr () {
+var v=document.getElementById("numin").value;
+document.getElementById("convresult").innerHTML="string("+v+")='"+string(v)+"'-now it is a:"+typeof string(v);
+}
+function tonum() {
+var v = document.getElementById("numin").value;
+document.getElementById("convresult").innerHTML = "number(" + v + ")='" + number(v) + "'-now it is a:" + typeof number(v);
+}
+function dosearch() {
+var w = document.getElementById("findw").value;
+var p=sen.search(w);
+document.getElementById("srresult").innerHTML = p===-1?"'"+w+"'is not in the sentence-try another word!":"'found"+w+"hiding at posion"+p+"i";
+}
+function doreplace(){
+var w=document.getElementById("findw").value;
+document.getElementById("srresult").innerHTML="new sentence:"+sen.replace(w,document.getElementById("swapw").value);
+}
+function trysafe(){
+try{
+var n=document.getElementById("divin").value;;
+if(n==="" || isnan(n)){throw "that is not a number-you caught the error!";}
+document.getElementById("errresult").innerHTML-"100/"+n+"-"+(100/number(n))+"-well done!";
+} catch(err){document.getElementById("errresult").innerHTML="error caught:"+ err;}
+}
+</script>
 </body>
 </html>
