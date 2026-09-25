@@ -1,0 +1,18 @@
+<html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>random colour generation</title>
+</head>
+<script> const button = document.getElementById("colorButton");
+button.addEventListener("click", function () {
+const randomColor = "#" + math.floor(math.random() * 16777215)
+.toString(16)
+padStart(6, "0");
+document.body.style.backgroundColor = randomColor;
+});</script>
+<body>
+<button id="colorButton">change colour</button>
+</body>
+</html>
