@@ -1,0 +1,23 @@
+<h1>Current Date Information</h1>
+<p id="date"></p>
+<p id="month"></p>
+<p id="year"></p>
+<p id="day"></p>
+let today=new Date();
+let date=today.getDate();
+let month=today.getMonth()+1;
+let year=today.getFullYear();
+let dayNumber=today.getDay();
+let days=[
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thusday",
+"Friday",
+"Saturday"
+]
+document.getElementById("date").innerHTML="Date:"+date;
+document.getElementById("month").innerHTML="Month:"+month;
+document.getElementById("date").innerHTML="Year:"+year;
+document.getElementById("date").innerHTML="Day:"+days[dayNumber];
