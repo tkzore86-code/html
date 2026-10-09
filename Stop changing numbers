@@ -1,0 +1,21 @@
+<div class="container">
+  <h2>random number app</h2>
+  <div id="number"></div>
+  <button id="toggle">click me</button>
+</div>
+var number=document.getElementById("number");
+var button=document.getElementById("toggle");
+var clickCount=0;
+var interval;
+function changeNumber(){
+number.innerHTML=Math.floor(Math.random()*100)+1;
+}
+interval=setInterval(changeNumber,500);
+button.onclick=function(){
+clickCount++;
+if(clickCount%2!==0){
+clearInterval(interval);
+}else{
+intervl=setINterval(chhangeNumber,500);
+}
+};
