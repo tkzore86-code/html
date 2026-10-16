@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <title>Slider in html</title>
+</head>
+
+<body>
+    <section>
+        <img class="mySlides" src="pic1.png" style="height: 450px;width:888px;">
+        <img class="mySlides" src="pic2.png" style="height: 450px;width:888px;">
+        <img class="mySlides" src="pic3.png" style="height: 450px;width:888px;">
+    </section>
+    <script>
+        var myIndex = 0;
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 1000);
+        }
+        carousel()
+    </script>
+</body>
+
+</html>
