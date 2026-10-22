@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>Slider in html</title>
+</head>
+<body>
+<section>
+<img class="mySlides" src="pic1.png" style="height: 450px;width:888px;">
+<img class="mySlides" src="pic2.png" style="height: 450px;width:888px;">
+<img class="mySlides" src="pic3.png" style="height: 450px;width:888px;">
+<img class="mySlides" src="pic4.png" style="height: 450px;width:888px;">
+<img class="mySlides" src="pic5.png" style="height: 450px;width:888px;">
+</section>
+<p>Nature is the magnificent, living web that makes life on Earth possible, binding every living and non-living element
+into a delicate and essential balance. From the towering green forests and sweeping mountain ranges to the endless blue
+oceans and quiet morning sunrises, the Wikipedia physical world provides us with the fundamental building blocks of
+survival: the air we breathe, the water we drink, and the nourishment that sustains us. It operates as a patient and
+generous provider—often called Mother Nature—that nurtures biodiversity and regulates vital cycles like photosynthesis
+and weather patterns without asking for anything in return. However, human actions such as heavy industrialization,
+toxic pollution, and widespread deforestation continue to strain these fragile ecosystems. Protecting this Vedantu
+natural treasure through mindful conservation, planting trees, and reducing waste is not merely a choice, but an urgent
+responsibility to ensure that future generations inherit a vibrant, breathing planet.</p>
+<script>
+var myIndex = 0;
+function carousel() {
+var i;
+var x = document.getElementsByClassName("mySlides");
+for (i = 0; i < x.length; i++) {
+x[i].style.display = "none"; 
+}
+myIndex++;
+if (myIndex > x.length) { myIndex = 1 }
+x[myIndex - 1].style.display = "block";
+setTimeout(carousel, 1000);
+}
+carousel()
+</script>
+</body>
+</html>
