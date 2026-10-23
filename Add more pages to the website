@@ -1,0 +1,53 @@
+<html>
+<head>
+<h1>Maths coaching class</h1>
+</head>
+<style>
+.body{
+background: yellow;
+left: 100%;
+bottom: 100%;
+width: 100%;
+background-color: coral;
+color: indigo;
+text-align: center;
+}
+</style>
+<body>
+<section>
+<img class="mySlides" src="image1.png" style="height: 500px;width:500px;">
+<img class="mySlides" src="image2.png" style="height: 500px;width:500px;">
+<img class="mySlides" src="image3.png" style="height: 500px;width:500px;">
+<br>
+<section class="section section-dark">
+    <h2>maths coaching class</h2>
+    <p>Regular diagnostic assessments, full syllabus tracking, and board-level step-by-step problem-solving methods...</p>
+    <h2>
+ contact = {
+    about us: "Math coaching class",
+    contact us: "18453-32347",
+    classes: "sunrise students academy",
+    city: "mumbai",
+    grade: "8th to 12th",
+}
+</h2>
+</section>
+</body>
+<script>
+    var myIndex = 0;
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) { myIndex = 1 }
+        x[myIndex - 1].style.display = "block";
+        setTimeout(carousel, 1000);
+    }
+    carousel()
+</script>
+</section>
+</body>
+</html>
