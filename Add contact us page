@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>contact us</title>
+<style type="text/css" media="all">
+body{
+background-color: lightblue;
+}
+</style>
+<body>
+<h1>contact us form</h1>
+<form action="" method="get" accept-charset="utf-8">
+<label for="enter your name">enter your name</label>
+<input type="text/submit/hidden/button/image" name="" id="" value="" /><br>
+<label for="enter your email">enter your email</label>
+<input type="text/submit/hidden/button/image" name="" id="" value="" /><br>
+<label for="enter your phonenumber">enter your phonenumber</label>
+<input type="text/submit/hidden/button/image" name="" id="" value="" /><br>
+your feedback:
+<input type="text/submit/hidden/button/image" name="" id="" value="" />
+<button type="submit">submit</button>
+</form>
+</body>
+</head>
+</html>
