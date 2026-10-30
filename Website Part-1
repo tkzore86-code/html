@@ -100,7 +100,23 @@ background-attachment: scroll;
 </span><br>
 <section>
 <h2>chinese cuisine</h2>
-<p>chinese cuisine is an important part of chinese culture, which includes cuisine originating from the diverse region china, as well as from chinese people in other parts of the world. because of the chinese dias</p>
+<p>chinese cuisine is an important part of chinese culture, which includes cuisine originating from the diverse region china, as well as from chinese people in other parts of the world. because of the chinese diaspora and historical power of the country, chinese cuisine has influence many other cuisine in asia, width modification made to cater to local palates. chinese food staples such as rice, soy sauce, noodles, tea, and tofu, and utensils such as chopsticks and the wok, can now be found worldwide.</p>
 </section>
+<section class="section section-dark">
+<h2>food</h2>
+<p>food is any substance consumed to provide nutritional supports for an organism. food is usually of plant, animal, or fungal origin, and contains essenctial nutrients, such as carbohydrates, fats, proteins, vitamin, or minerals.</p>
+</section>
+<div class="pimg3">
+<div class="ptext">
+<span class="border trans">image two text</span>
+</div>
+</div>
+<p>pizza</p>
+<p><img src="pizza.png" style="width: 170px; height: 170px; margin-left: 15px; float: right;">
+pizza (italian: ['pittsa], neapolitan: ['pittsa]) is a savory dish of italian origin consiting of a usually round, flattend base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients (such as anchovies, mushrooms, onions, olives, pineaaple, meat, etc), which is then baked at a high temperature, traditionally in a wood-fired oven,[1] A small pizza is sometimes called a pizzetta. A person who makes pizza is known as a pizzaiolo.</p>
+<p><img src="pizza2.png" style="width: 170px; height: 170px; margin-left: 15px; float: right;">
+pizza (italian: ['pittsa],neapolitan: ['pittsa]) is a savory dish of italian origin consiting of a usually round, flattend base of leavenedwheat-based dough topped with tomatoes, cheese, and often various other ingredients (such as anchovies, mushrooms,
+onions, olives, pineaaple, meat, etc), which is then baked at a high temperature, traditionally in a wood-fired
+oven,[1] A small pizza is sometimes called a pizzetta. A person who makes pizza is known as a pizzaiolo.</p>
 </body>
 </html>
