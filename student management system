@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Management System</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div class="container">
+<h1>Student Management System</h1>
+<h2>Add / Update Student</h2>
+<form action="/save" method="post">
+<input type="hidden" name="id"
+th:value="${student.id}">
+<input type="text" name="name"
+placeholder="Student Name"
+th:value="${student.name}" required>
+<input type="email" name="email"
+placeholder="Student Email"
+th:value="${student.email}" required>
+<input type="text" name="course"
+placeholder="Student Course"
+th:value="${student.course}" required>
+<button type="submit">Save Student</button>
+</form>
+<h2>Student Records</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Name</th>
+<th>Email</th>
+<th>Course</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr th:each="s : ${students}">
+<td th:text="${s.id}"></td>
+<td th:text="${s.name}"></td>
+<td th:text="${s.email}"></td>
+<td th:text="${s.course}"></td>
+<td>
+<a th:href="@{/edit/{id}(id=${s.id})}">
+Edit
+</a>
+<a th:href="@{/delete/{id}(id=${s.id})}"
+onclick="return confirm('Delete this student?')">
+Delete
+</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<script src="/script.js"></script>
+</body>
+</html>
